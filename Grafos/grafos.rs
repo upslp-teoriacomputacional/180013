@@ -1,17 +1,32 @@
+/* *****************************************************************************
+ *  Nombre:     Nahomi Itzel Medellin Salas
+ *  Matrícula:  180013
+ *  Carrera:    Tecnologías de la Información
+ *  Escuela:    Universidad Politécnica de San Luis Potosí
+ *
+ *  Materia:    Teoría Computacional
+ *  Maestro:    Juan Carlos González Ibarra              
+ *                
+ *  Descripción: Operaciones con conjuntos en lenguaje Rust
+ *
+ *  Creado:       12/02/2020
+ *  Última actualización:  14/02/2020
+ *
+ * ***************************************************************************** */
 use graphlib::Graph;
 use std::io;
-use petgraph::Graph;
+use petgraph::Graph; //librerias para poder acceder a los metodos de los grafos
 
 let mut graph: Graph<usize> = Graph::new();
 
-// Add two vertices to the graph
+// agregando los vertices al grafo
 let id1 = graph.add_vertex('a');
 let id2 = graph.add_vertex('b');
 let id3 = graph.add_vertex('c');
 let id4 = graph.add_vertex('d');
 let id5 = graph.add_vertex('e');
 
-// Add an edge between the two vertices
+// agregando las aristas que van a ir entre los vertices
 //id1 -> a
 //id2 -> b 
 //id3 -> c
