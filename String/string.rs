@@ -5,6 +5,7 @@
  *  Escuela:    Universidad Politécnica de San Luis Potosí
  *
  *  Materia:    Teoría Computacional
+ *  Lenaguaje:  Rust
  *  Maestro:    Juan Carlos González Ibarra              
  *                
  *  Descripción: This program validate chars to alphabet {a-z, A-Z} and digits {0-9}
